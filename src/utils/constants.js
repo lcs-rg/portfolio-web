@@ -19,19 +19,19 @@ export const SKILLS = [
   },
   {
     id: 4,
-    title: 'TypeScript',
-    description: 'Código type-safe para projetos robustos e manuteníveis',
+    title: 'Java Spring',
+    description: 'Backend robusto com Spring Boot e arquitetura REST',
     icon: 'code'
   },
   {
     id: 5,
-    title: 'PostgreSQL / MongoDB',
+    title: 'PostgreSQL / Supabase',
     description: 'Modelagem de dados eficiente para qualquer escala',
     icon: 'database'
   },
   {
     id: 6,
-    title: 'AWS / Vercel',
+    title: 'Vercel / Supabase',
     description: 'Deploy e infraestrutura em nuvem com CI/CD automatizado',
     icon: 'cloud'
   }
@@ -42,16 +42,16 @@ export const PROJECTS = [
     id: 1,
     title: 'Vital Ativa Academia',
     description: 'Sistema de gestão para academias com controle de alunos, planos, treinos e acompanhamento de progresso',
-    tech: ['React', 'Node.js', 'PostgreSQL', 'Docker'],
+    tech: ['React', 'Java Spring', 'PostgreSQL', 'Docker'],
     color: '#00d4ff',
-    year: '2024',
+    year: '2026',
     url: 'https://vital-ativa-academia.vercel.app/'
   },
   {
     id: 2,
     title: 'Fullstack Auth System',
-    description: 'Sistema completo de autenticação com JWT,刷新令牌, recuperação de senha e múltiplos métodos de login',
-    tech: ['React', 'Node.js', 'PostgreSQL', 'Docker'],
+    description: 'Sistema completo de autenticação com JWT,刷新技术, recuperação de senha e múltiplos métodos de login',
+    tech: ['React', 'Node.js', 'Supabase', 'Docker'],
     color: '#00ff88',
     year: '2024',
     url: 'https://github.com/lcs-rg/fullstack-auth-system'
@@ -62,7 +62,7 @@ export const SOCIAL = [
   {
     id: 1,
     label: 'GitHub',
-    url: 'https://github.com',
+    url: 'https://github.com/lcs-rg',
     icon: 'github'
   },
   {
