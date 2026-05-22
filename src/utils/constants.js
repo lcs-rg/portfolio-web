@@ -7,33 +7,33 @@ export const SKILLS = [
   },
   {
     id: 2,
+    title: 'React Native',
+    description: 'Aplicações mobile cross-platform para Android e iOS',
+    icon: 'smartphone'
+  },
+  {
+    id: 3,
     title: 'Node.js',
     description: 'APIs RESTful e GraphQL escaláveis com arquitetura limpa',
     icon: 'server'
   },
   {
-    id: 3,
+    id: 4,
     title: 'TypeScript',
     description: 'Código type-safe para projetos robustos e manuteníveis',
     icon: 'code'
   },
   {
-    id: 4,
+    id: 5,
     title: 'PostgreSQL / MongoDB',
     description: 'Modelagem de dados eficiente para qualquer escala',
     icon: 'database'
   },
   {
-    id: 5,
+    id: 6,
     title: 'AWS / Vercel',
     description: 'Deploy e infraestrutura em nuvem com CI/CD automatizado',
     icon: 'cloud'
-  },
-  {
-    id: 6,
-    title: 'Figma / Design',
-    description: 'Interfaces funcionais com design system consistente',
-    icon: 'penTool'
   }
 ];
 
@@ -45,7 +45,7 @@ export const PROJECTS = [
     tech: ['React', 'Node.js', 'PostgreSQL', 'Docker'],
     color: '#00d4ff',
     year: '2024',
-    url: 'https://github.com/lcs-rg/vital-ativa-academia'
+    url: 'https://vital-ativa-academia.vercel.app/'
   },
   {
     id: 2,

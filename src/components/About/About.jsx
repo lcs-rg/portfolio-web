@@ -104,7 +104,7 @@ function About() {
           <div ref={contentRef} className={styles.content}>
             <div className={styles.textBlock}>
               <p className={styles.paragraph}>
-                Estudante de Engenharia de Software atualmente no 3º período, com experiência em desenvolvimento Full Stack e atuação em aplicações mobile durante estágio.
+                Estudante de Engenharia de Software atualmente no 3º período, com experiência em desenvolvimento Full Stack e atuação em aplicações mobile com React Native durante estágio na <strong>MedSafe</strong>.
               </p>
               <p className={styles.paragraph}>
                 Possuo familiaridade com tecnologias como Java Spring, React, Node.js, PostgreSQL, MySQL e Docker, além de experiência com deploy e infraestrutura utilizando Vercel, Render e Supabase.
@@ -125,9 +125,9 @@ function About() {
                 <div className={styles.statLabel}>Full Stack</div>
                 <div className={styles.decorLine} aria-hidden="true" />
               </div>
-              <div className={styles.stat} role="article" aria-label="Mobile">
-                <div className={styles.statNumber}>1</div>
-                <div className={styles.statLabel}>Estágio</div>
+              <div className={styles.stat} role="article" aria-label="MedSafe">
+                <div className={styles.statNumber}>MF</div>
+                <div className={styles.statLabel}>MedSafe</div>
                 <div className={styles.decorLine} aria-hidden="true" />
               </div>
               <div className={styles.stat} role="article" aria-label="6+ Tecnologias">
