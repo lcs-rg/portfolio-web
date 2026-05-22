@@ -68,6 +68,9 @@
   overflow: hidden;
   will-change: transform, opacity;
   transition: all 0.6s var(--ease-out-expo);
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
 }
 
 .featuredCard:hover {

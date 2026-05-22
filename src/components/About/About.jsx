@@ -115,9 +115,9 @@ function About() {
             </div>
             
             <div ref={statsRef} className={styles.statsGrid}>
-              <div className={styles.stat} role="article" aria-label="3º Período">
-                <div className={styles.statNumber}>3º</div>
-                <div className={styles.statLabel}>Período</div>
+              <div className={styles.stat} role="article" aria-label="+2 Anos de experiência">
+                <div className={styles.statNumber}>+2</div>
+                <div className={styles.statLabel}>Anos</div>
                 <div className={styles.decorLine} aria-hidden="true" />
               </div>
               <div className={styles.stat} role="article" aria-label="Full Stack">
@@ -125,12 +125,12 @@ function About() {
                 <div className={styles.statLabel}>Full Stack</div>
                 <div className={styles.decorLine} aria-hidden="true" />
               </div>
-              <div className={styles.stat} role="article" aria-label="MedSafe">
+              <a href="https://medsafebrasil.com.br/" target="_blank" rel="noopener noreferrer" className={styles.stat} role="article" aria-label="MedSafe">
                 <img src="/medsafe-icon.svg" alt="MedSafe" className={styles.medsafeIcon} />
                 <div className={styles.statNumber}>MF</div>
                 <div className={styles.statLabel}>MedSafe</div>
                 <div className={styles.decorLine} aria-hidden="true" />
-              </div>
+              </a>
               <div className={styles.stat} role="article" aria-label="6+ Tecnologias">
                 <div className={styles.statNumber}>6+</div>
                 <div className={styles.statLabel}>Tecnologias</div>
