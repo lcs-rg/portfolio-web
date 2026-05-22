@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
-import { Layout, Server, Code, Database, Cloud, PenTool } from 'lucide-react'
+import { Layout, Server, Code, Database, Cloud, PenTool, Smartphone } from 'lucide-react'
 import { SKILLS } from '../../utils/constants'
 import styles from './Skills.module.css'
 
@@ -11,7 +11,8 @@ const iconMap = {
   code: Code,
   database: Database,
   cloud: Cloud,
-  penTool: PenTool
+  penTool: PenTool,
+  smartphone: Smartphone
 }
 
 function Skills() {
