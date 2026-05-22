@@ -31,7 +31,7 @@ export const SKILLS = [
   },
   {
     id: 6,
-    title: 'Vercel / Supabase',
+    title: 'Docker / Vercel',
     description: 'Deploy e infraestrutura em nuvem com CI/CD automatizado',
     icon: 'cloud'
   }
