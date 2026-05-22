@@ -1,0 +1,78 @@
+.loading {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-primary);
+  transition: opacity 0.8s var(--ease-out-expo), visibility 0.8s;
+}
+
+.loading.hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.logo {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-weight: 400;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  color: var(--text-primary);
+  margin-bottom: 3rem;
+  opacity: 0;
+  animation: logoFadeIn 0.8s ease-out 0.2s forwards;
+}
+
+@keyframes logoFadeIn {
+  to { opacity: 1; }
+}
+
+.progressWrapper {
+  width: 200px;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 1px;
+  position: relative;
+  overflow: visible;
+}
+
+.progressBar {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, var(--accent-primary), var(--accent-secondary));
+  transform: translateY(-50%) scaleX(0);
+  transform-origin: left;
+  border-radius: 1px;
+  box-shadow: 0 0 20px var(--glow-primary);
+}
+
+.progressGlow {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 100px;
+  height: 20px;
+  background: linear-gradient(90deg, transparent, var(--accent-primary));
+  transform: translateY(-50%);
+  filter: blur(8px);
+  opacity: 0.6;
+}
+
+.percentage {
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: var(--font-body);
+  font-size: 0.625rem;
+  letter-spacing: 0.2em;
+  color: var(--text-muted);
+}
