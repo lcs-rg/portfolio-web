@@ -74,7 +74,7 @@ function Projects() {
         </div>
         
         <article ref={featuredRef} className={styles.featured} aria-label={`Projeto em destaque: ${featured.title}`}>
-          <div className={styles.featuredCard}>
+          <a href={featured.url} target="_blank" rel="noopener noreferrer" className={styles.featuredCard}>
             <div className={styles.imageContainer}>
               <div className={styles.imagePlaceholder} aria-hidden="true">01</div>
               <div className={styles.imageOverlay} aria-hidden="true" />
@@ -89,12 +89,12 @@ function Projects() {
                 ))}
               </div>
             </div>
-          </div>
+          </a>
         </article>
         
         <div ref={gridRef} className={styles.grid} role="list" aria-label="Outros projetos">
           {others.map((project) => (
-            <article key={project.id} className={styles.projectCard} role="listitem" aria-label={project.title}>
+            <a key={project.id} href={project.url} target="_blank" rel="noopener noreferrer" className={styles.projectCard} role="listitem" aria-label={project.title}>
               <div className={styles.cardContent}>
                 <h3 className={styles.cardTitle}>{project.title}</h3>
                 <p className={styles.cardDescription}>{project.description}</p>
@@ -104,7 +104,7 @@ function Projects() {
                   <span key={tech} className={styles.techTag} role="listitem">{tech}</span>
                 ))}
               </div>
-            </article>
+            </a>
           ))}
         </div>
       </div>

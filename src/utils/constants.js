@@ -40,27 +40,21 @@ export const SKILLS = [
 export const PROJECTS = [
   {
     id: 1,
-    title: 'Nexus Platform',
-    description: 'PlataformaSaaS de gestão empresarial com dashboard analítico em tempo real',
-    tech: ['React', 'Node.js', 'PostgreSQL', 'AWS'],
+    title: 'Vital Ativa Academia',
+    description: 'Sistema de gestão para academias com controle de alunos, planos, treinos e acompanhamento de progresso',
+    tech: ['React', 'Node.js', 'PostgreSQL', 'Docker'],
     color: '#00d4ff',
-    year: '2024'
+    year: '2024',
+    url: 'https://github.com/lcs-rg/vital-ativa-academia'
   },
   {
     id: 2,
-    title: 'Aurora Dashboard',
-    description: 'Sistema de monitoramento IoT com visualização de dados geoespaciais',
-    tech: ['Next.js', 'Python', 'MongoDB', 'D3.js'],
-    color: '#7b5cff',
-    year: '2024'
-  },
-  {
-    id: 3,
-    title: 'Vertex AI Studio',
-    description: 'Interface conversacional para criação e treinamento de modelos de ML',
-    tech: ['React', 'FastAPI', 'Redis', 'OpenAI'],
+    title: 'Fullstack Auth System',
+    description: 'Sistema completo de autenticação com JWT,刷新令牌, recuperação de senha e múltiplos métodos de login',
+    tech: ['React', 'Node.js', 'PostgreSQL', 'Docker'],
     color: '#00ff88',
-    year: '2023'
+    year: '2024',
+    url: 'https://github.com/lcs-rg/fullstack-auth-system'
   }
 ];
 
