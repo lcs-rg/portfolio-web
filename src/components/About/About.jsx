@@ -104,38 +104,34 @@ function About() {
           <div ref={contentRef} className={styles.content}>
             <div className={styles.textBlock}>
               <p className={styles.paragraph}>
-                <strong>Desenvolvedor full-stack com 8+ anos de experiência</strong> construindo 
-                interfaces e sistemas que combinam performance técnica com experiência do usuário refinada.
+                Estudante de Engenharia de Software atualmente no 3º período, com experiência em desenvolvimento Full Stack e atuação em aplicações mobile durante estágio.
               </p>
               <p className={styles.paragraph}>
-                Minha abordagem fusiona código limpo com direção de arte deliberada — cada projeto 
-                é tratado como uma oportunidade de criar algo que seja tanto funcional quanto visualmente 
-                memorável. Especializado em React, Node.js e arquitetura de sistemas escaláveis.
+                Possuo familiaridade com tecnologias como Java Spring, React, Node.js, PostgreSQL, MySQL e Docker, além de experiência com deploy e infraestrutura utilizando Vercel, Render e Supabase.
               </p>
               <p className={styles.paragraph}>
-                Quando não estou codificando, provavelmente estou explorando novas tecnologias, 
-                contribuindo para projetos open-source ou refinando o próximo experimento criativo.
+                Tenho interesse em construir aplicações modernas, performáticas e bem estruturadas, unindo desenvolvimento técnico e boas experiências de usuário.
               </p>
             </div>
             
             <div ref={statsRef} className={styles.statsGrid}>
-              <div className={styles.stat} role="article" aria-label="50+ Projetos">
-                <div className={styles.statNumber}>50+</div>
-                <div className={styles.statLabel}>Projetos</div>
+              <div className={styles.stat} role="article" aria-label="3º Período">
+                <div className={styles.statNumber}>3º</div>
+                <div className={styles.statLabel}>Período</div>
                 <div className={styles.decorLine} aria-hidden="true" />
               </div>
-              <div className={styles.stat} role="article" aria-label="8+ Anos de experiência">
-                <div className={styles.statNumber}>8+</div>
-                <div className={styles.statLabel}>Anos</div>
+              <div className={styles.stat} role="article" aria-label="Full Stack">
+                <div className={styles.statNumber}>FS</div>
+                <div className={styles.statLabel}>Full Stack</div>
                 <div className={styles.decorLine} aria-hidden="true" />
               </div>
-              <div className={styles.stat} role="article" aria-label="30+ Clientes">
-                <div className={styles.statNumber}>30+</div>
-                <div className={styles.statLabel}>Clientes</div>
+              <div className={styles.stat} role="article" aria-label="Mobile">
+                <div className={styles.statNumber}>1</div>
+                <div className={styles.statLabel}>Estágio</div>
                 <div className={styles.decorLine} aria-hidden="true" />
               </div>
-              <div className={styles.stat} role="article" aria-label="10+ Tecnologias">
-                <div className={styles.statNumber}>10+</div>
+              <div className={styles.stat} role="article" aria-label="6+ Tecnologias">
+                <div className={styles.statNumber}>6+</div>
                 <div className={styles.statLabel}>Tecnologias</div>
                 <div className={styles.decorLine} aria-hidden="true" />
               </div>
