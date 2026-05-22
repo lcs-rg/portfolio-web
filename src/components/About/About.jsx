@@ -126,6 +126,7 @@ function About() {
                 <div className={styles.decorLine} aria-hidden="true" />
               </div>
               <div className={styles.stat} role="article" aria-label="MedSafe">
+                <img src="/medsafe-icon.svg" alt="MedSafe" className={styles.medsafeIcon} />
                 <div className={styles.statNumber}>MF</div>
                 <div className={styles.statLabel}>MedSafe</div>
                 <div className={styles.decorLine} aria-hidden="true" />

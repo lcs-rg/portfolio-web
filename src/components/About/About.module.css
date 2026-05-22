@@ -159,6 +159,13 @@
   position: relative;
 }
 
+.medsafeIcon {
+  width: 48px;
+  height: 42px;
+  margin-bottom: 0.5rem;
+  color: var(--text-primary);
+}
+
 .statLabel {
   font-family: var(--font-body);
   font-size: 0.75rem;
